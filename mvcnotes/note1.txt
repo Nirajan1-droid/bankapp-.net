@@ -1,0 +1,24 @@
+MODEL VIEW CONTROLLER
+
+more testable and easier to update than the traditional monolitic apps
+
+
+models; vlaidation logic, business rules for the data
+in eg: movie model retrueves movie data from the databawse 
+
+model -> gives the data to the VIEW
+
+viwes::the frontnend interface UI
+
+controllers: 
+classes that handle browser request
+retrive model data
+call view templates that returns a response to the model/
+
+https://localhost:5001/Home/Privacy: specifies the Home controller
+ and the Privacy action.
+
+ home = controller
+ Privacy = action
+
+ /[Controller]/[ActionName]/[Parameters]
